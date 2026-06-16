@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PakCrick - Pakistan Cricket Hub</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI',Tahoma,sans-serif}
+body{background:#0a192f;color:#e6f1ff}
+header{background:#112240;padding:15px 20px;position:sticky;top:0;border-bottom:3px solid #64ffda}
+header h1{color:#64ffda;font-size:22px;display:inline}
+nav{float:right}
+nav a{color:#ccd6f6;text-decoration:none;margin-left:15px;font-size:13px}
+.hero{text-align:center;padding:50px 20px}
+.hero h2{font-size:28px;color:#64ffda;margin-bottom:10px}
+.btn{background:#64ffda;color:#0a192f;padding:10px 20px;border-radius:5px;text-decoration:none;font-weight:bold;display:inline-block;margin-top:15px}
+.section{background:#112240;margin:20px;padding:20px;border-radius:10px;border-left:4px solid #64ffda}
+.section h3{color:#64ffda;font-size:20px;margin-bottom:15px}
+.players{display:grid;grid-template-columns:1fr 1fr;gap:15px}
+.player-card{background:#0a192f;padding:15px;border-radius:8px;text-align:center}
+.player-card img{width:70px;height:70px;border-radius:50%;margin-bottom:8px}
+.player-card h4{color:#64ffda;margin-bottom:5px;font-size:15px}
+.player-card p{color:#8892b0;font-size:12px;line-height:1.5}
+.news-card{background:#0a192f;padding:15px;border-radius:8px;margin-bottom:12px}
+.news-card h4{color:#ccd6f6;margin-bottom:8px;font-size:15px}
+.news-card p{color:#8892b0;font-size:13px}
+.table{width:100%;border-collapse:collapse;font-size:13px}
+.table th{background:#64ffda;color:#0a192f;padding:8px;text-align:left}
+.table td{padding:8px;border-bottom:1px solid #233554;color:#8892b0}
+footer{text-align:center;padding:20px;color:#8892b0;font-size:12px;border-top:1px solid #112240;margin-top:30px}
+iframe{width:100%;height:500px;border:none;border-radius:8px}
+@media(max-width:600px){nav a{margin-left:8px;font-size:12px}}
+</style>
+</head>
+<body>
+
+<header>
+<h1>🏏 PakCrick</h1>
+<nav>
+<a href="#home">Home</a>
+<a href="#live">Live</a>
+<a href="#players">Players</a>
+<a href="#news">News</a>
+<a href="#points">Points</a>
+</nav>
+</header>
+
+<section class="hero" id="home">
+<h2>Pakistan Cricket Ka Ghar</h2>
+<p>Live Scores, Player Stats, Daily News - Sab Kuch Ek Jagah</p>
+<a href="#live" class="btn">Live Match Dekho</a>
+</section>
+
+<div class="container" style="padding:0 15px">
+
+<section class="section" id="live">
+<section class="section" id="live">
+<h3>🔴 Live Cricket Scores</h3>
+<iframe 
+src="https://www.flashscore.com/cricket/" 
+width="100%" 
+height="550" 
+frameborder="0" 
+scrolling="auto"
+style="border-radius:8px;background:#fff">
+</iframe>
+<p style="text-align:center;color:#8892b0;font-size:11px;margin-top:8px">Live scores by FlashScore</p>
+</section><?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://pakcrick.netlify.app/</loc>
+    <lastmod>2026-06-16</lastmod>
+  </url>
+</urlset>
+
+<section class="section" id="players">
+<h3>⭐ Pakistan Star Players</h3>
+<div class="players">
+<div class="player-card">
+<img src="https://upload.wikimedia.org/wikipedia/commons/7/7b/Babar_Azam_2022.jpg" alt="Babar">
+<h4>Babar Azam</h4>
+<p><b>Role:</b> Batsman<br><b>Runs:</b> 14,000+<br><b>Debut:</b> 2015<br>King of modern cricket</p>
+</div>
+<div class="player-card">
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/Mohammad_Rizwan_2021.jpg" alt="Rizwan">
+<h4>Mohammad Rizwan</h4>
+<p><b>Role:</b> Wicket Keeper<br><b>Runs:</b> 7,000+<br><b>Debut:</b> 2015<br>Fighting spirit</p>
+</div>
+</div>
+</section>
+
+<section class="section" id="news">
+<h3>📰 Latest Cricket News</h3>
+<div class="news-card">
+<h4>Pakistan vs Sri Lanka Series 15 May se</h4>
+<p>PCB ne Sri Lanka ke khilaf 3 ODI aur 3 T20 ki series ka schedule announce kar diya. Sab matches Lahore me hon ge.</p>
+</div>
+<div class="news-card">
+<h4>Shaheen Afridi wapis team me</h4>
+<p>Injury se recovery ke baad Shaheen Afridi Sri Lanka series ke liye squad me wapis aa gaye hain. Team mazboot ho gayi.</p>
+</div>
+<div class="news-card">
+<h4>PSL 10 Draft Date Final</h4>
+<p>Pakistan Super League ka 10th season February 2027 me start hoga. Draft December 2026 me Dubai me hoga.</p>
+</div>
+</section>
+
+<section class="section" id="points">
+<h3>📊 ICC Rankings Table</h3>
+<table class="table">
+<tr><th>Team</th><th>Matches</th><th>Points</th><th>Rating</th></tr>
+<tr><td>India</td><td>25</td><td>3012</td><td>120</td></tr>
+<tr><td>Australia</td><td>24</td><td>2832</td><td>118</td></tr>
+<tr><td>Pakistan</td><td>23</td><td>2523</td><td>110</td></tr>
+<tr><td>England</td><td>24</td><td>2448</td><td>102</td></tr>
+</table>
+</section>
+
+</div>
+
+<footer>
+<p>© 2026 PakCrick.netlify.app | Made for Cricket Lovers</p>
+</footer>
+
+</body>
+</html>

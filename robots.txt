@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://pakcrick.netlify.app/sitemap.xml
